@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:critical": "cypress run --spec 'cypress/e2e/critical/**/*.cy.js'",
+    "test:general": "cypress run --spec 'cypress/e2e/general/**/*.cy.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/jest": "^29.5.12",
+    "cypress": "^13.8.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "faker": "^6.6.6"
+  }
+}
